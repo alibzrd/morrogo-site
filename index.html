@@ -30,6 +30,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
+  :root{ color-scheme: light; }
   :root{
     --cream:#FAF8F3;
     --stone:#F1EAD9;
@@ -43,26 +44,6 @@
     --surface: #FFFFFF;
     --text: var(--ink);
     --text-soft: var(--ink-soft);
-  }
-  :root[data-theme="dark"]{
-    --bg:#161510;
-    --surface:#1E1C16;
-    --text:#F3EFE4;
-    --text-soft:#C8C2B4;
-    --line: rgba(243,239,228,0.14);
-    --cream:#1E1C16;
-    --stone:#232019;
-  }
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){
-      --bg:#161510;
-      --surface:#1E1C16;
-      --text:#F3EFE4;
-      --text-soft:#C8C2B4;
-      --line: rgba(243,239,228,0.14);
-      --cream:#1E1C16;
-      --stone:#232019;
-    }
   }
 
   *{box-sizing:border-box; margin:0; padding:0;}
@@ -160,7 +141,6 @@
     margin-bottom:18px;
     font-weight:500;
   }
-  :root[data-theme="dark"] .eyebrow, @media (prefers-color-scheme:dark){ .eyebrow{ color:#6FBE8E; } }
   .hero h1{
     font-size:clamp(2.3rem, 4.4vw, 3.4rem);
     line-height:1.08;
@@ -474,13 +454,13 @@
       <div class="section-head">
         <div class="eyebrow">What we do</div>
         <h2>Two ways we work, one standard</h2>
-        <p>Private or corporate, the approach is the same: we listen closely, we design something specific to you, and we stay accountable for it from start to finish.</p>
+        <p>Private or corporate, the approach is the same: we listen closely, we build carefully, and we deliver personally — from the first conversation to the last day on the ground.</p>
       </div>
       <div class="services-grid">
         <div class="service-card">
           <span class="num">01</span>
           <h3>Tailor-Made Private Experiences</h3>
-          <p>Every trip begins with a conversation, not a catalogue. We listen to what you actually want, then design an experience around it. Creativity and rigour are what we bring to the table; the brief is yours.</p>
+          <p>Every journey begins with a conversation, not a catalogue. We take the time to understand your objectives and your expectations, then design an experience built around them. You define the brief; we bring the creativity and the rigour to deliver it.</p>
           <ul>
             <li>Built entirely around your brief</li>
             <li>Hotels, private villas &amp; riads, drivers, guides</li>
